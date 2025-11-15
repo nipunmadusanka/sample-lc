@@ -12,7 +12,7 @@ const PACKAGES = [
         title: "Cultural Heritage Tour",
         duration: "7 Days",
         price: "$1,299",
-        image: "/images/carous01.webp",
+        image: "https://images.pexels.com/photos/34720020/pexels-photo-34720020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Explore ancient temples, royal palaces, and UNESCO World Heritage sites across Sri Lanka's cultural triangle.",
         highlights: ["Sigiriya Rock Fortress", "Temple of the Tooth", "Dambulla Cave Temple"]
     },
@@ -21,7 +21,7 @@ const PACKAGES = [
         title: "Wildlife Safari Adventure",
         duration: "5 Days",
         price: "$899",
-        image: "/images/pexels-ollivves-1078983.webp",
+        image: "https://images.pexels.com/photos/6551921/pexels-photo-6551921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Experience thrilling wildlife encounters in Yala and Udawalawe National Parks.",
         highlights: ["Leopard Spotting", "Elephant Gathering", "Bird Watching"]
     },
@@ -30,7 +30,7 @@ const PACKAGES = [
         title: "Beach & Relaxation",
         duration: "6 Days",
         price: "$1,099",
-        image: "/images/carous01.webp",
+        image: "https://images.pexels.com/photos/29994693/pexels-photo-29994693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Unwind on pristine beaches with luxury accommodations and spa treatments.",
         highlights: ["Mirissa Beach", "Whale Watching", "Ayurvedic Spa"]
     },
@@ -39,7 +39,7 @@ const PACKAGES = [
         title: "Hill Country Escape",
         duration: "4 Days",
         price: "$699",
-        image: "/images/pexels-ollivves-1078983.webp",
+        image: "https://images.pexels.com/photos/34714985/pexels-photo-34714985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Journey through misty mountains, tea plantations, and colonial charm.",
         highlights: ["Ella Nine Arch Bridge", "Tea Factory Visit", "Little Adam's Peak"]
     },
@@ -48,7 +48,7 @@ const PACKAGES = [
         title: "Adventure & Trekking",
         duration: "8 Days",
         price: "$1,499",
-        image: "/images/carous01.webp",
+        image: "https://images.pexels.com/photos/34677570/pexels-photo-34677570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Challenge yourself with hiking, white water rafting, and mountain climbing.",
         highlights: ["Adam's Peak Hike", "Kitulgala Rafting", "Knuckles Range"]
     },
@@ -57,7 +57,7 @@ const PACKAGES = [
         title: "Culinary Journey",
         duration: "5 Days",
         price: "$799",
-        image: "/images/pexels-ollivves-1078983.webp",
+        image: "https://images.pexels.com/photos/17126455/pexels-photo-17126455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Discover authentic Sri Lankan flavors through cooking classes and food tours.",
         highlights: ["Spice Garden Tour", "Cooking Classes", "Street Food Walk"]
     }

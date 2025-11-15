@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <>
     <Header />
-    <div className="mt-[-100px] sm:mt-[-100px] min-h-screen">
+    <div className="mt-[-100px] sm:mt-[-100px] min-h-screen overflow-hidden">
       {/* Hero Section */}
       <MainCarousel />
       

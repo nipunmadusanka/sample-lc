@@ -6,7 +6,7 @@ import Button from "@/components/button";
 
 export default function TailorMadeSection() {
     return (
-        <div className="px-[1rem] lg:px-[6rem] min-h-screen py-[80px] bg-white">
+        <div className="px-[1rem] lg:px-[6rem] min-h-screen py-[80px] overflow-hidden bg-white">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <motion.div

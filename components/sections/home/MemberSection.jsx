@@ -33,7 +33,7 @@ const MEMBERSHIPS = [
 
 export default function MemberSection() {
     return (
-        <div className="px-[1rem] lg:px-[6rem] py-[80px] bg-gradient-to-br from-[var(--deepoceancolor)]/90 to-[var(--lightBlue)]">
+        <div className="px-[1rem] lg:px-[6rem] py-[80px] bg-[var(--deepoceancolor)]">
             <div className="max-w-7xl mx-auto">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}

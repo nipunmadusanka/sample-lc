@@ -117,7 +117,7 @@ export default function SustainableTourismSection() {
                     >
                         <div className="relative h-[700px] rounded-3xl overflow-hidden">
                             <Image 
-                                src="/images/pexels-ollivves-1078983.webp" 
+                                src="https://images.pexels.com/photos/5029853/pexels-photo-5029853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
                                 alt="Sustainable Tourism" 
                                 width={600} 
                                 height={700}

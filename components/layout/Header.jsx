@@ -63,7 +63,7 @@ const Header = () => {
     return (
         <>
             <div className="fixed top-0 left-0 w-full h-[70px] z-60 ">
-                <div className={`relative px-[0rem] lg:px-[3rem] ${scrolling ? "bg-[var(--deepoceancolor)]/80 backdrop-blur-md" : "bg-transparent md:pt-6 bg-gradient-to-b from-[var(--darkBlue)] to-transparent "} transition-all duration-700 ease-in-out  flex items-center justify-center h-[50px] md:h-[70px] overflow-hidden`}>
+                <div className={`relative px-[0rem] lg:px-[3rem] ${scrolling ? "bg-[var(--deepoceancolor)] backdrop-blur-md" : "bg-transparent md:pt-6 bg-gradient-to-b from-[var(--darkBlue)] to-transparent "} transition-all duration-700 ease-in-out  flex items-center justify-center h-[50px] md:h-[70px] overflow-hidden`}>
                     <div className="relative flex items-center justify-between w-full">
                         <div className="block lg:hidden py-[8px] px-[16px] sm:px-[24px]">
                             <button

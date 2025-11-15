@@ -42,7 +42,7 @@ export default function FaqSection() {
                         transition={{ duration: 0.8, delay: 0.3 }}
                         className="w-full max-w-4xl mx-auto flex justify-center items-center rounded-2xl overflow-hidden shadow-2xl"
                     >
-                        <Image width={600} height={600} src="/images/pexels-ollivves-1078983.webp" alt="Sri Lanka Tourism" className="w-full h-auto lg:h-[700px] max-h-[900px] object-cover" />
+                        <Image width={600} height={600} src="https://images.pexels.com/photos/2880718/pexels-photo-2880718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sri Lanka Tourism" className="w-full h-auto lg:h-[700px] max-h-[900px] object-cover" />
                     </motion.div>
                     <motion.div 
                         initial={{ opacity: 0, x: 30 }}

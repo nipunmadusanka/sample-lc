@@ -8,32 +8,32 @@ import Button from "@/components/button";
 const TOUR_CATEGORIES = [
     {
         title: "Cultural Heritage",
-        image: "/images/carous01.webp",
+        image: "https://images.pexels.com/photos/14041994/pexels-photo-14041994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Explore ancient temples and rich traditions"
     },
     {
         title: "Wildlife Safari",
-        image: "/images/pexels-ollivves-1078983.webp",
+        image: "https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Discover exotic wildlife in natural habitats"
     },
     {
         title: "Beach Paradise",
-        image: "/images/carous01.webp",
+        image: "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Relax on pristine golden beaches"
     },
     {
         title: "Adventure Tours",
-        image: "/images/pexels-ollivves-1078983.webp",
+        image: "https://images.pexels.com/photos/1098365/pexels-photo-1098365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Thrilling experiences in nature"
     },
     {
         title: "Tea Plantation",
-        image: "/images/carous01.webp",
+        image: "https://images.pexels.com/photos/981091/pexels-photo-981091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Journey through lush tea gardens"
     },
     {
         title: "Hill Country",
-        image: "/images/pexels-ollivves-1078983.webp",
+        image: "https://images.pexels.com/photos/1658967/pexels-photo-1658967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description: "Scenic mountain landscapes"
     }
 ];
@@ -93,8 +93,8 @@ export default function TourCategorySection() {
                             </CarouselItem>
                         ))}
                     </CarouselContent>
-                    <CarouselPrevious className="border-2 border-[var(--warmGold)]/30 text-black hover:bg-[var(--warmGold)]/10 hover:border-[var(--warmGold)]" />
-                    <CarouselNext className="border-2 border-[var(--warmGold)]/30 text-black hover:bg-[var(--warmGold)]/10 hover:border-[var(--warmGold)]" />
+                    <CarouselPrevious className="hidden md:flex border-2 border-[var(--warmGold)]/30 text-black hover:bg-[var(--warmGold)]/10 hover:border-[var(--warmGold)]" />
+                    <CarouselNext className="hidden md:flex border-2 border-[var(--warmGold)]/30 text-black hover:bg-[var(--warmGold)]/10 hover:border-[var(--warmGold)]" />
                 </Carousel>
             </div>
         </div>
